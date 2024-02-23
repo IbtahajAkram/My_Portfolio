@@ -1,0 +1,217 @@
+.topLeftPortfolio1{
+    background-color: black;
+    height: 119vh;
+    width: 696px;
+    margin-top: -12px;
+    
+}
+body{
+    background-color: black;
+}
+
+
+  
+.blob{
+    height: 300px;
+    width: 300px;
+    margin-left: 29px;
+    background-size: cover;
+    -webkit-background-position:center;
+    background-position: center center;
+    box-shadow: 0 5px 5px 5px rgba(53, 131, 247, 0.2);
+margin-top: 29px;
+    animation: animate 4s ease-in-out infinite;
+    transition: all 1s ease-in-out;
+}
+@keyframes animate {
+    0%,100%{
+        border-radius: 60% 40% 60% 70%;
+    }50%{
+        border-radius: 60% 30%  60%  30% / 40% 70% 40% 60%;
+
+    }
+    
+}
+.topImg{
+    height: 96vh;
+    width:538px;
+    margin-left: 716px;
+    margin-top: -2px;
+    
+}
+.li{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-top: -664px;
+    gap: 38px;
+    font-size: 19px;
+}
+.contact{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    color: rgb(4, 4, 4);
+   margin-left: 241px;
+   background-color: rgb(163, 249, 33);
+   border-radius: 19px;
+   padding: 9px 25px;
+   margin-top: -7px;
+}
+.name{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    color: white;
+   margin-left: -21px;
+   margin-right: 209px;
+   font-size: 29px;
+   font-weight: bold;
+   margin-top: -12px;
+}
+.about{
+    background-color: #233546;
+    height: 76vh;
+    margin-right: -7px;
+    padding-top: 79px;
+}
+.abouthead{
+    font-size: 34px;
+    margin-left: 696px;
+    margin-top: -302px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.service1{
+    color: white;
+    background-color: #233546;
+    border-radius: 21px;
+    height: 53vh;
+    width: 302px;
+    padding: 12px;
+    margin-left: 75px;
+}
+.service2{
+    color: white;
+    background-color: #233546;
+    border-radius: 21px;
+    height: 53vh;
+    width: 302px;
+    padding: 12px;
+    margin-left: 445px;
+    margin-top: -338px;
+}
+.service3{
+    color: white;
+    background-color: #233546;
+    border-radius: 21px;
+    height: 53vh;
+    width: 302px;
+    padding: 12px;
+    margin-left: 816px;
+    margin-top: -341px;
+}
+.hireMe{
+    height: 40vh;
+    width: 1081px;
+    background-color: #233546;
+    border-radius: 35px;
+    margin-left: 71px;
+ 
+}
+.hire{
+    color: white;
+    word-spacing: 4px;
+    padding-left: 138px;
+    font-size: 20px;
+}
+.aboutContent{
+    font-size: 15px;
+    margin-left: 696px;
+    color: white;
+  word-spacing: 4px;
+  font-family: sans-serif;
+
+}
+.sidecontent{
+   color: white;
+   display: flex;
+   align-items: center;
+   margin-top: 76px;
+   margin-left: 65px;
+   gap: 20px;
+}
+.FontAwesomeIcon{
+font-weight: bold;
+font-size: 30px;
+color: yellow;
+}
+.cvbutton{
+    font-weight: bold;
+font-size: 16px;
+color: rgb(255, 255, 255);
+background-color: #5050ff;
+border-radius: 25px;
+border: none;
+padding: 14px 26px;
+margin-left: 88px;
+}
+.cvbutton1{
+    font-weight: bold;
+font-size: 16px;
+color: rgb(255, 255, 255);
+background-color: #5050ff;
+border-radius: 25px;
+border: none;
+padding: 10px 26px;
+margin-left: 88px;
+}
+.MyServices{
+    background-color: #040404;
+    height: 90vh;
+}
+.footer{
+    height: 90vh;
+    background-color: #233546;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    margin-bottom: -9px;
+}
+input{
+    border-radius: 17px;
+    background-color:#3a4f62;
+    border: none;
+    width:  312px;
+    padding: 10px;
+    color: white;
+}
+textarea{
+    border-radius: 17px;
+    background-color:#3a4f62;
+    border: none;
+    width:  312px;
+    padding: 10px;
+    color: white;
+    height: 10vh;
+}
+.form{
+    margin-left: 796px;
+    padding-top: 152px;
+}
+.contactMe{
+    color: white;
+    margin-top: -361px;
+    margin-left: 42px;
+    font-size: 26px;
+}
+.SocialIcon{
+    color: #5454fd;
+    font-size: 34px;
+  margin-left: 11px;
+}
+::placeholder {
+    color: white;
+}
+

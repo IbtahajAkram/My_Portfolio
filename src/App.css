@@ -1,0 +1,145 @@
+.LogForm{
+
+  border: 1px solid rgb(45, 113, 248);
+  padding: 11px 25px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(45, 113, 248);
+  text-decoration: none;
+  border-radius: 12px;
+  margin-left: 39px;
+  margin-top: 12px;
+}
+.LoginBtn:hover{
+  background-color: rgb(45, 113, 248);
+  color: white;
+}
+.loginSideImg{
+  height: 80vh;
+  width: 80vh;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin-left: 587px;
+  margin-top: 138px;
+}
+.SignupBtn{
+  background-color: rgb(45, 113, 248);
+  padding: 10px 18px;
+  color: white;
+  text-decoration: none;
+  border-radius: 12px;
+  border: none;
+  margin-top: 18px;
+  margin-right: 11px;
+  margin-left: 32px;
+}
+.SignupLink{
+  background-color:  rgb(255, 255, 255);
+  border: none;
+  border-radius: 12px;
+  padding: 10px 19px;
+  color:  rgb(45, 113, 248);
+  text-decoration: none;
+  margin-left: 14px;
+  border: 1px solid  rgb(45, 113, 248);
+}
+.SignupLink:hover{
+  background-color: rgb(45, 113, 248);
+  color: white;
+}
+.Containner{
+  margin-left: 55px;
+  margin-top: -565px;
+  background-color: rgb(255, 255, 255);
+  width: 329px;
+  padding: 22px;
+  padding-left: 36px;
+  border-radius: 18px;
+  line-height: 2.5em;
+
+}.loginLink:hover{
+  background-color: rgb(83, 89, 255);
+  color: white;
+}
+.loginLink{
+  padding: 14px 31px;
+  background-color: rgb(255, 255, 255);
+  color:rgb(83, 89, 255);
+  border: 1px solid  rgb(83, 89, 255);
+  text-decoration: none;
+  border-radius: 11px;
+  margin-left: 11px;
+}
+.LoginForm{
+  background-color: white;
+  border-radius: 14px;
+  padding: 15px 29px;
+  width:283px;
+  line-height: 2.3em;
+  margin-top: -399px;
+  margin-left: 33px;
+}
+.imgside{
+  height: 97vh;
+  width: 97vh;
+  margin-left: 613px;
+  margin-top:147px ;
+  margin-bottom: 32px;
+  border-radius: 50%;
+}
+.RegisterBtn{
+  padding: 15px 25px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(83, 89, 255) ;
+  margin-left: 39px;
+  border: 1px solid  rgb(83, 89, 255);
+  text-decoration: none;
+  border-radius: 11px; 
+}
+.RegisterBtn:hover{
+  background-color: rgb(83, 89, 255);
+color: rgb(255, 255, 255) ;
+}
+body{
+  background-color: rgb(136, 136, 255);
+}
+
+
+
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider-container img {
+  width: 100%;
+  display: none;
+}
+
+.slider-container img.active {
+  display: block;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
